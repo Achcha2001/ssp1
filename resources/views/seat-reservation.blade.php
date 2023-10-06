@@ -1,11 +1,11 @@
-<!-- resources/views/seat-reservation.blade.php -->
+
 @extends('layouts.frontend')
 
 @section('title', 'Seat Reservation')
 
 @section('content')
 <style>
-    /* Add your custom styles here */
+    
     .container {
         margin-top: 50px;
         background: rgba(0, 0, 0, 0.699);
@@ -41,21 +41,20 @@
 }
 
 .col-md-4 {
-    width: 20%; /* Adjust as needed */
+    width: 20%; 
     background: rgb(149, 149, 149);
     width: 600px;
     height: 40px;
     margin-top: 18px;
 }
 
-/* Optional: Adjust the styling for labels and inputs */
+
 label {
-    margin-bottom: 0; /* Remove default margin */
+    margin-bottom: 0; 
 }
 
 .form-group {
-    margin-bottom: 0; /* Remove default margin */
-}
+    margin-bottom: 0; 
 
     .card {
         margin-bottom: 20px;
@@ -105,8 +104,8 @@ border-radius: 10px;
 }
 
 .col-md-3 {
-    flex: 0 0 48%; /* Adjust the width as needed */
-    margin: 1%; /* Add margin between columns */
+    flex: 0 0 48%; 
+    margin: 1%; 
     
     border-radius: 20px;
     background: orangered;

@@ -1,5 +1,5 @@
 <?php
-// app/Http/Controllers/ReservationController.php
+
 
 use App\Models\Reservation;
 use Illuminate\Http\Request;
@@ -14,7 +14,7 @@ class ReservationController extends Controller
 
     public function reserveSeats(Request $request)
     {
-        // Validate the request data
+        
         $request->validate([
             'route' => 'required|string',
             'trainClass' => 'required|string',
@@ -22,7 +22,7 @@ class ReservationController extends Controller
             'reservationDate' => 'required|date',
         ]);
 
-        // Save the reservation to the database
+        
         $reservation = new Reservation([
             'route' => $request->input('route'),
             'train_class' => $request->input('trainClass'),
@@ -32,9 +32,7 @@ class ReservationController extends Controller
 
         $reservation->save();
 
-        // Update main seat counts in the database (you need to implement this logic)
-
-        // Respond with a success message or redirect
+        
         return response()->json(['message' => 'Seats reserved successfully']);
     }
 }

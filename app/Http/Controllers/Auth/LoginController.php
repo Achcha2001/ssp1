@@ -32,23 +32,22 @@ class LoginController extends Controller
 
         $credentials = $request->only('email', 'password');
 
-        // Check if the provided credentials match the admin credentials
         if ($this->isAdmin($credentials)) {
-            // Log in the admin
+          
             Auth::loginUsingId(1);
 
             return $this->sendLoginResponse($request);
         }
 
-        // Check if the provided credentials match the portal checker credentials
+        
         if ($this->isPortalChecker($credentials)) {
-            // Log in the portal checker
-            Auth::loginUsingId(2); // Assuming the portal checker has user ID 2
+           
+            Auth::loginUsingId(2); 
 
             return $this->sendLoginResponse($request);
         }
 
-        // If not admin or portal checker credentials, proceed with the regular login logic
+        
         if (Auth::attempt($credentials)) {
             return $this->sendLoginResponse($request);
         }
@@ -66,13 +65,13 @@ class LoginController extends Controller
 
         if ($user) {
             if ($this->isAdminUser($user)) {
-                return redirect()->intended('/dashboard'); // Redirect admin to the dashboard
+                return redirect()->intended('/dashboard'); 
             } elseif ($this->isPortalCheckerUser($user)) {
-                return redirect()->intended('/checker'); // Redirect portal checker to the checker page
+                return redirect()->intended('/checker'); 
             }
         }
 
-        // For regular users or when the user is null, redirect to the intended page or a default route
+        
         return $this->authenticated($request, $user)
             ?: redirect()->intended($this->redirectPath());
     }

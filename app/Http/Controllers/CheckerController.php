@@ -1,5 +1,4 @@
 <?php
-// app/Http/Controllers/CheckerController.php
 
 namespace App\Http\Controllers;
 

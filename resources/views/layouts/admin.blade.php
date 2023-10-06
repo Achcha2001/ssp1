@@ -30,7 +30,7 @@
         }
 
         .navbar-logo img {
-            max-height: 50px; /* Set your preferred height */
+            max-height: 50px; 
         }
 
         nav ul {
@@ -103,7 +103,7 @@
     <div class="container">
         <nav>
             <div class="navbar-logo">
-                <img src="../../images/logo.png" alt="Logo"> <!-- Set your logo image path -->
+                <img src="../../images/logo.png" alt="Logo"> 
             </div>
             <ul>
                 <li><a href="{{ route('dashboard') }}">Home</a></li>

@@ -1,4 +1,4 @@
-<!-- resources/views/admin/edit-train-schedule.blade.php -->
+
 @extends('layouts.admin')
 
 @section('title', 'Edit Train Schedule')
@@ -16,7 +16,7 @@
         @csrf
         @method('PUT')
 
-        <!-- Add fields like From, To, Time here with the current values -->
+        
         <label for="from">From:</label>
         <input type="text" name="from" value="{{ $trainSchedule->from }}" required>
 

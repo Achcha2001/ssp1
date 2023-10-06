@@ -1,5 +1,5 @@
 <?php
-// app/Http/Controllers/TicketPriceController.php
+
 
 namespace App\Http\Controllers;
 

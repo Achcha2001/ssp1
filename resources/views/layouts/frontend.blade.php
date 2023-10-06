@@ -64,21 +64,21 @@
         .linkl a {
             border-right: none;
         }
-          /* Add styles for the login and signup buttons */
+         
           .login-button,
         .signup-button {
             margin-left: 10px;
     padding: 5px 5px;
     margin-top: 20px;
-    background-color: #24352400; /* Change to your desired color */
+    background-color: #24352400; 
     color: white;
     text-decoration: none;
     border: outset;
     border-radius: 5px;
     cursor: pointer;
     display: flex;
-    justify-content: center; /* Center horizontally */
-    align-items: center; /* Center vertically */
+    justify-content: center; 
+    align-items: center; 
     font-weight: bold;
            
         }
@@ -103,7 +103,7 @@
             margin-right: 5px;
         }
 
-        /* Position the buttons to the right corner */
+        
         .navbar .login-button {
             margin-left: auto;
         }
@@ -117,39 +117,39 @@
         /* Style for the footer */
         footer {
     background-color: #333;
-    height: auto; /* Reduce the height of the footer */
+    height: auto; 
     color: #fff;
     text-align: center;
-    padding: 10px 0; /* Adjust padding as needed */
+    padding: 10px 0; 
 }
 
 .footer-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100%; /* Make the content vertically centered */
+    height: 100%; 
 }
 
 .footer-logo img {
     margin-left: 10px;
-    width: 80px; /* Adjust the image width as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Add spacing between logo and text */
+    width: 80px; 
+    height: auto; 
+    margin-right: 20px; 
 }
 
 .footer-info p {
     margin: 0;
-    font-size: 12px; /* Reduce the font size */
+    font-size: 12px; 
 }
 
 .footer-links {
     list-style: none;
-    margin-bottom: 10px; /* Reduce the spacing between links and text */
+    margin-bottom: 10px; 
 }
 
 .footer-links li {
     display: inline;
-    margin-right: 10px; /* Add spacing between links */
+    margin-right: 10px; 
 }
 
 .footer-links a {

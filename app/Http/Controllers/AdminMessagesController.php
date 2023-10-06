@@ -1,6 +1,6 @@
 <?php
 
-// app/Http/Controllers/AdminMessagesController.php
+
 
 namespace App\Http\Controllers;
 

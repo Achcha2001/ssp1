@@ -1,4 +1,4 @@
-<!-- resources/views/reservation.blade.php -->
+
 
 @extends('layouts.frontend')
 
@@ -7,7 +7,7 @@
 @section('content')
 
 <style>
-    /* Add your CSS styles here */
+    
     .container6 {
         max-width: 600px;
         margin: 0 auto;
@@ -43,7 +43,7 @@
         background-color: #007bff;
         color: #fff;
         padding: 10px 20px;
-        width: 100%; /* Adjust the width as needed */
+        width: 100%;
         border: none;
         border-radius: 4px;
         cursor: pointer;
@@ -68,7 +68,7 @@
                 <option value="Fort-Badulla">Fort-Badulla</option>
                 <option value="Fort-Jaffna">Fort-Jaffna</option>
                 <option value="Fort-Matara">Fort-Matara</option>
-                <!-- Add more options as needed -->
+                
             </select>
         </div>
 
@@ -99,8 +99,7 @@
 </div>
 
 <script>
-    // Your JavaScript logic to fetch routes and update the 'route' select options
-    // ...
+   
 
     document.getElementById('reservationForm').addEventListener('submit', function (event) {
         event.preventDefault();
@@ -111,8 +110,6 @@
         var seatCount = document.getElementById('seatCount').value;
         var reservationDate = document.getElementById('reservationDate').value;
 
-        // Make an AJAX request to update the main seat counts in the database
-        // Example using Fetch API
         fetch('{{ route('reserve.seats') }}', {
             method: 'POST',
             headers: {
@@ -128,7 +125,7 @@
         })
         .then(response => response.json())
         .then(data => {
-            // Handle the response (success or error)
+            
             console.log(data);
         })
         .catch(error => {

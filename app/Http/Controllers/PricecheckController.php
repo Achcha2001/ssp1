@@ -1,6 +1,6 @@
 <?php
 
-// app/Http/Controllers/PricecheckController.php
+
 
 namespace App\Http\Controllers;
 
@@ -15,5 +15,5 @@ class PricecheckController extends Controller
         return view('ticket-price', ['ticketPrices' => $ticketPrices]);
     }
 
-    // Add other methods as needed
+   
 }

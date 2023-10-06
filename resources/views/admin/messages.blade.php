@@ -6,7 +6,7 @@
 
 @section('content')
 <style>
-    /* Add these styles to your CSS file */
+   
 
 .container3 {
     max-width: 800px;

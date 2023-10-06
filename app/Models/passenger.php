@@ -18,7 +18,7 @@ class Passenger extends Model implements Authenticatable
         'name',
         'email',
         'password',
-        // Add other columns as needed
+        
     ];
 
     protected $hidden = [

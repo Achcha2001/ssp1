@@ -31,7 +31,7 @@
         border-collapse: collapse;
         margin-top: 20px;
         background: white;
-        overflow: auto; /* Add this line for scrolling */
+        overflow: auto; 
     }
 
     table, th, td {

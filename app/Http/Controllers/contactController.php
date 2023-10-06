@@ -29,7 +29,7 @@ class ContactController extends Controller
             'message' => $request->input('message'),
         ]);
 
-        // For demonstration purposes, just redirect back with a success message
+        
         return redirect()->route('contact')->with('success', 'Your message has been submitted successfully!');
     }
 }

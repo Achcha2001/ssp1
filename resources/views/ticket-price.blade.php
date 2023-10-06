@@ -1,4 +1,4 @@
-<!-- resources/views/ticket-prices/ticket-price.blade.php -->
+
 
 @extends('layouts.frontend')
 
@@ -6,7 +6,7 @@
 
 @section('content')
 <style>
-    /* Add these styles to your CSS file or within a <style> tag in your HTML */
+    
 
 h1 {
     color: #333;
@@ -47,7 +47,6 @@ th {
     margin-left: 150px;
 }
 
-/* Add more styles as needed based on your design preferences */
 
     </style>
     <div class="container4">

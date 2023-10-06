@@ -34,8 +34,7 @@ class DashboardController extends Controller
 
     public function addTicketPrices()
     {
-        // Logic for adding ticket prices
-        // ...
+        
 
         return redirect()->route('add.train.schedule.form')->with('success', 'Ticket prices added successfully');
     }

@@ -9,7 +9,7 @@ class AfterLoginController extends Controller
 {
     public function index()
     {
-        return view('layouts.afterlogin'); // Adjust the path based on your actual folder structure
+        return view('layouts.afterlogin'); 
     }
 }
 

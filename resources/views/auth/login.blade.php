@@ -2,9 +2,9 @@
 
 @section('content')
 <style>
-    /* Your existing styles here */
+   
 
-    /* Additional styles for the login form */
+    
     .login-container {
         background: rgba(2, 8, 48, 0.721);
         color: white;
@@ -31,7 +31,7 @@
         padding: 20px;
     }
 
-    /* Your other styles here */
+    
 </style>
 
 <div class="container1">

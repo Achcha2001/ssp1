@@ -1,11 +1,11 @@
-<!-- resources/views/admin/add-train-schedule.blade.php -->
+
 @extends('layouts.admin')
 
 @section('title', 'Add Train Schedule')
 
 @section('content')
 <style>
-    /* Add these styles to your CSS file or in a <style> tag in your HTML */
+    
 
 .ad {
     max-width: 400px;
@@ -56,7 +56,7 @@ input {
     <form class="ad" action="{{ route('add.train.schedule') }}" method="post">
         @csrf
 
-        <!-- Add fields like From, To, Time here -->
+       
         <label for="from">From:</label>
         <input type="text" name="from" required>
 

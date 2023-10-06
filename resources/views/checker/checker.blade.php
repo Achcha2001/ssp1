@@ -1,11 +1,9 @@
-<!-- checker.blade.php -->
 
-{{-- Assuming you have a common layout for your pages --}}
 @extends('layouts.check')
 
 @section('content')
 <style>
-    /* Add these styles to your CSS file */
+   
 
     .checker-content {
         max-width: 600px;
@@ -15,7 +13,7 @@
         margin-right: 50px;
         border-radius: 20px;
         text-align: center;
-        padding: 20px; /* Added padding for better spacing */
+        padding: 20px;
     }
 
     .checker-content h2 {
@@ -27,13 +25,13 @@
     }
 
     .scanning-icon {
-        width: 100px; /* Adjust the width as needed */
+        width: 100px;
         height: auto;
         margin-top: 20px;
-        cursor: pointer; /* Add cursor pointer for the scanning icon */
+        cursor: pointer; 
     }
 
-    /* Styling for the QR code scanner modal */
+    
     #qrScannerModal {
         display: none;
         position: fixed;
@@ -96,7 +94,7 @@
     <div class="qr" id="startScan">
         <img src="../../images/scan.png" alt="Scanning Icon" class="scanning-icon">
     </div>
-    {{-- Add other content specific to the checker portal --}}
+  
 </div>
 
 <!-- QR Code Scanner Modal -->
@@ -117,9 +115,7 @@
 
             scanner.addListener('scan', function (content) {
                 alert('Scanned: ' + content);
-                // Handle the scanned content as needed
-
-                // Close the modal after scanning
+              
                 $('#qrScannerModal').hide();
                 scanner.stop();
             });

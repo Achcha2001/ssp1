@@ -17,17 +17,15 @@
             padding: 20px;
 
             border-radius: 10px;
-            background-color: #ffffffb4; /* Set container background color */
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
-        }
+            background-color: #ffffffb4; 
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
 
         h1 {
-            color: #007bff; /* Set heading color */
-        }
+            color: #007bff; 
 
         p {
-            font-size: 1.2em; /* Set default paragraph font size */
-            color: #555; /* Set default paragraph text color */
+            font-size: 1.2em; 
+            color: #555; 
         }
 
         .key-features {
@@ -35,7 +33,7 @@
         }
 
         ul {
-            list-style-type: none; /* Remove bullet points from the list */
+            list-style-type: none;
             padding: 0;
         }
 
@@ -44,13 +42,13 @@
         }
 
         a {
-            color: #007bff; /* Set link color */
+            color: #007bff; 
             text-decoration: none;
-            font-weight: bold; /* Make links bold */
+            font-weight: bold;
         }
 
         a:hover {
-            text-decoration: underline; /* Underline links on hover */
+            text-decoration: underline; 
         }
     </style>
 </head>
@@ -69,7 +67,7 @@
                 <li>Effortless Seat Reservation: Choose your seats with ease.</li>
                 <li>Electronic Tickets: No more paper tickets. Your e-ticket is all you need.</li>
                 <li>User-Friendly Interface: Navigate and use the platform with simplicity.</li>
-                <!-- Add more features as needed -->
+               
             </ul>
         </div>
         <p>

@@ -6,7 +6,7 @@
 
 @section('content')
 <style>
-    /* Add these styles to your CSS file or in a <style> tag in your HTML */
+   
 
 body {
     font-family: 'Arial', sans-serif;

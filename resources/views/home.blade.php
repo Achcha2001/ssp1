@@ -15,11 +15,11 @@
         border-radius: 10px;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Add a shadow effect */
     }
-    /* Style for buttons */
+   
     .welcome-buttons {
         display: flex;
         justify-content: center;
-        gap: 20px; /* Adjust the space between buttons */
+        gap: 20px; 
         margin-top: 20px;
     }
     
@@ -27,9 +27,9 @@
         padding: 10px 20px;
         background-color: #0b163002;
         border: outset;
-        color: #fff; /* Button text color */
+        color: #fff; 
     
-        /* width: 150px; */
+       
         border-radius: 8px;
         cursor: pointer;
         font-size: 16px;
@@ -54,7 +54,7 @@
     
     
     
-    /* Style for button text */
+   
     
     .welcome-buttons button span {
         margin-left: 10px; 
@@ -89,10 +89,9 @@
                 <div class="welcome-button1">
                     <button class="reservation" onclick="redirectToSeatReservation()">Seat Reservation </button>
 
-                    <!-- Add this script at the end of your HTML body or in a separate script file -->
+                    
                     <script>
                         function redirectToSeatReservation() {
-                            // Redirect to the seat reservation page
                             window.location.href = "{{ route('login') }}";
                         }
                     </script>

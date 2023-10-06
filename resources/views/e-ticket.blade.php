@@ -1,11 +1,11 @@
-<!-- resources/views/frontend.blade.php -->
+
 
 @extends('layouts.frontend')
 
 @section('content')
 
 <style>
-    /* Add your form and other styles here */
+   
 
     .container {
         max-width: 600px;
@@ -55,7 +55,7 @@
         <div class="form-group">
             <label for="from">From:</label>
             <select class="form-control" id="from" name="from">
-                <!-- Add your options for 'from' here -->
+                
                 <option value="Colombo Fort">Colombo Fort</option>
                 <option value="Maradana">Maradana</option>
                 <option value="Ragama">Ragama</option>
@@ -77,7 +77,7 @@
         <div class="form-group">
             <label for="to">To:</label>
             <select class="form-control" id="to" name="to">
-                <!-- Add your options for 'to' here -->
+                
                 <option value="Colombo Fort">Colombo Fort</option>
                 <option value="Maradana">Maradana</option>
                 <option value="Ragama">Ragama</option>
@@ -129,21 +129,20 @@
     }
 
     function getDistance(from, to) {
-        // You need to implement your logic to calculate the distance
-        // For demonstration, let's assume a simple mapping
+       
         var distanceMap = {
             'Colombo Fort': 0,
             'Maradana': 10,
             'Ragama': 20,
             'Gampaha': 40,
-            // ... Add more mappings as needed
+            
         };
 
         return Math.abs(distanceMap[to] - distanceMap[from]);
     }
 
     function proceedToPayment() {
-    // Assume you have calculated the total amount and stored it in a session
+   
     var totalAmount = parseFloat(document.getElementById('totalAmount').value);
     var ticketCount = parseInt(document.getElementById('ticketCount').value);
 

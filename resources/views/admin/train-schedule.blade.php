@@ -1,4 +1,4 @@
-<!-- resources/views/admin/train-schedule.blade.php -->
+
 @extends('layouts.admin')
 
 @section('title', 'Train Schedule')
@@ -31,7 +31,7 @@
             border-collapse: collapse;
             margin-top: 20px;
             background: white;
-            overflow: auto; /* Add this line for scrolling */
+            overflow: auto; 
         }
 
         table, th, td {
@@ -81,7 +81,7 @@
                 <th>From</th>
                 <th>To</th>
                 <th>Time</th>
-                <th>Actions</th> <!-- New column for edit and delete buttons -->
+                <th>Actions</th> 
             </tr>
         </thead>
         <tbody>

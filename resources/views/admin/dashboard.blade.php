@@ -1,4 +1,4 @@
-<!-- resources/views/admin/dashboard.blade.php -->
+
 
 @extends('layouts.admin')
 
@@ -6,7 +6,7 @@
 
 @section('content')
 <style>
-    /* Add these styles to your CSS file or in a <style> tag in your HTML */
+   
 
 .dashboard-buttons {
     display: flex;
@@ -48,7 +48,7 @@
     <button class="add-prices" onclick="navigateTo('{{ route('add.ticket.prices') }}')">Add Ticket Prices</button>
     </div>
 </div>
-    <!-- Add this script at the end of your HTML body or in a separate script file -->
+   
     <script>
         function navigateTo(url) {
             // Redirect to the specified URL

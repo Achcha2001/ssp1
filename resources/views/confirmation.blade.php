@@ -1,4 +1,4 @@
-<!-- resources/views/confirmation/show.blade.php -->
+
 
 @extends('layouts.frontend')
 
@@ -26,7 +26,7 @@
         margin-bottom: 10px;
     }
 
-    /* Customize as needed */
+   
 </style>
 
 
@@ -40,5 +40,5 @@
    
 
 </div>
-m
+
 @endsection

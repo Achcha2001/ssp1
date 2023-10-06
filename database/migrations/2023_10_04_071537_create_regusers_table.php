@@ -13,7 +13,7 @@ class CreateRegusersTable extends Migration
             $table->string('email')->unique();
             $table->timestamp('email_verified_at')->nullable();
             $table->string('password');
-            // Add your additional columns here
+         
             $table->date('date_of_birth');
             $table->string('nic_passport');
             $table->string('contact_number');
