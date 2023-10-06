@@ -93,17 +93,8 @@
             <button class="sub" type="submit">Submit</button>
         </form>
 
-        <!-- Contact History -->
-        <h2>Contact History</h2>
-        <ul>
-            @foreach($contacts as $contact)
-                <li>
-                    <strong>Name:</strong> {{ $contact->name }}, 
-                    <strong>Email:</strong> {{ $contact->email }}, 
-                    <strong>Message:</strong> {{ $contact->message }}
-                </li>
-            @endforeach
-        </ul>
+        
+       
     </div>
     
 </body>
